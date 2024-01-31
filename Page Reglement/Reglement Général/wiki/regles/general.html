@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Etercube est un serveur Minecraft PvP-Faction fondé en 2021, acceptant Premium, Crack ou Bedrock.">
+        <meta name="theme-color" content="#3d7eff">
+        <meta name="author" content="Sloyni">
+        <meta property="og:title" content="Règlement général">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://etercube.fr/wiki/regles/general">
+        <meta property="og:image" content="https://etercube.fr/storage/img/logo-new.png">
+        <meta property="og:description" content="Etercube est un serveur Minecraft PvP-Faction fondé en 2021, acceptant Premium, Crack ou Bedrock.">
+        <meta property="og:site_name" content="EterCube 🧨 Faction">
+        <meta name="keywords" content="Etercube,Eter,Cube,Eternaliaa,Minecraft,Serveur Minecraft,Serveur PVP Faction,Serveur Minecraft Bedrock,MCPE,PVP,Faction,CrossPlateform">
+        <meta name="csrf-token" content="vHviqVddl6G867w4RdnNXO1xynGYgYYYsWan15eY">
+        <title>Règlement général | EterCube 🧨 Faction</title>
+        <link rel="shortcut icon" href="https://etercube.fr/storage/img/logo-new.png">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer type="3ee7c29eb09196dae703795b-text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js" defer type="3ee7c29eb09196dae703795b-text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer type="3ee7c29eb09196dae703795b-text/javascript"></script>
+        <script src="https://etercube.fr/assets/vendor/bootstrap/js/bootstrap.bundle.min.js?v1.1.8" defer type="3ee7c29eb09196dae703795b-text/javascript"></script>
+        <script src="https://etercube.fr/assets/vendor/axios/axios.min.js?v1.1.8" defer type="3ee7c29eb09196dae703795b-text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer type="3ee7c29eb09196dae703795b-text/javascript"></script>
+        <script src="https://etercube.fr/assets/js/script.js?v1.1.8" defer type="3ee7c29eb09196dae703795b-text/javascript"></script>
+        <script src="https://etercube.fr/assets/themes/revolution/js/components.js?v1.1.8" defer type="3ee7c29eb09196dae703795b-text/javascript"></script>
+        <script src="https://etercube.fr/assets/themes/revolution/js/script.js?v1.1.8" defer type="3ee7c29eb09196dae703795b-text/javascript"></script>
+        <script src="https://etercube.fr/assets/themes/revolution/js/fixedNavbar.js?v1.1.8" defer type="3ee7c29eb09196dae703795b-text/javascript"></script>
+        <script type="3ee7c29eb09196dae703795b-text/javascript">
+            
+        let currentTitle = 'Règlement général';
+
+        function selectWikiPage(element, replaceState = false) {
+            const tab = bootstrap.Tab.getOrCreateInstance(element);
+            tab.show();
+
+            if (replaceState) {
+                window.history.replaceState({}, '', element.href);
+            } else {
+                window.history.pushState({}, '', element.href);
+            }
+
+            document.title = document.title.replace(currentTitle, element.title);
+            currentTitle = element.title;
+        }
+
+        window.onpopstate = function(e) {
+            const target = document.querySelector('[href="' + e.target.location.href + '"]');
+
+            if (target) {
+                selectWikiPage(target, true);
+            }
+        };
+    
+        </script>
+        <link rel="stylesheet" href="https://etercube.fr/assets/vendor/bootstrap-icons/bootstrap-icons.css?v1.1.8">
+        <link href="https://fonts.bunny.net/css2?family=ABeeZee:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://etercube.fr/assets/vendor/bootstrap/css/bootstrap.min.css?v1.1.8" rel="stylesheet">
+        <link rel="stylesheet" href="https://etercube.fr/assets/themes/revolution/css/components.css?v1.1.8">
+        <link rel="stylesheet" href="https://etercube.fr/assets/themes/revolution/css/animations.css?v1.1.8">
+        <link rel="stylesheet" href="https://etercube.fr/assets/themes/revolution/css/style.css?v1.1.8">
+        <style>
+            :root {
+                --theme-font-family: 'ABeeZee', sans-serif;
+                --theme-body-color: #ffffff;
+                --theme-body-background: #262626;
+                --theme-navbar-background: #101010 !important;
+                --theme-button-color: #ffffff;
+                --theme-button-background: #3d7eff;
+                --theme-button-second-color: #000000;
+                --theme-button-second-background: #ffffff;
+                --theme-button-second-background-2: #dfdfdf;
+                --theme-dropdown-background: #262626;
+            }
+        </style>
+    </head>
+    <body data-bs-theme="dark">
+        <div id="navbarContainer" class="style-1 container flex-1">
+            <div class="navbar-left">
+                <a href="javascript:void(0)" id="navbarMobileOpen" class=" text-white mr-3">
+                    <i class="bi-list"></i>
+                </a>
+                <a href="https://etercube.fr">
+                    <img class="navbar-logo" src="https://etercube.fr/storage/img/logo-banner.png" alt>
+                </a>
+                <a class="navbar-item " href="https://etercube.fr">Accueil
+</a>
+                <a class="navbar-item " href="https://etercube.fr/news">News
+</a>
+                <a class="navbar-item " href="https://etercube.fr/vote">Vote
+</a>
+                <div class="navbar-dropdown">
+                    <a href="javascript:void(0)" class="navbar-dropdown-btn navbar-item ">
+                        Infos
+<i class="bi-chevron-up arrow"></i>
+                    </a>
+                    <div class="navbar-dropdown-body">
+                        <a class="navbar-dropdown-item " href="https://etercube.fr/wiki/regles/">Règlement
+</a>
+                        <a class="navbar-dropdown-item " href="https://etercube.fr/staff">Staff
+</a>
+                        <a class="navbar-dropdown-item " href="https://etercube.fr/wiki/">Wiki
+</a>
+                    </div>
+                </div>
+                <a class="navbar-item " href="https://status.etercube.fr" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                    Status
+
+                </a>
+            </div>
+            <div class="navbar-right">
+                <a href="https://etercube.fr/user/login" data-text="Connexion" class="navbar-btn btn-theme">Connexion
+</a>
+                <a href="https://etercube.fr/user/register" data-text="Inscription" class="navbar-btn btn-theme-second">Inscription
+</a>
+            </div>
+        </div>
+        <div id="navbarMobileContainer">
+            <div class="text-center">
+                <a class="d-block h4 text-white" href="javascript:void(0)" id="navbarMobileClose">
+                    <i class="bi-x-lg"></i>
+                </a>
+            </div>
+            <h3 class="navbar-title">Menu</h3>
+            <a class="btn btn-theme-simple mt-2 btn-block " href="https://etercube.fr">Accueil
+</a>
+            <a class="btn btn-theme-simple mt-2 btn-block " href="https://etercube.fr/news">News
+</a>
+            <a class="btn btn-theme-simple mt-2 btn-block " href="https://etercube.fr/vote">Vote
+</a>
+            <button data-bs-toggle="collapse" data-bs-target="#nav13" class="btn mt-2 btn-theme-simple btn-block ">
+                Infos
+<i class="bi-chevron-up arrow"></i>
+            </button>
+            <div class="collapse" id="nav13">
+                <div class="card">
+                    <div class="card-body">
+                        <a class="btn btn-light btn-block mt-2 " href="https://etercube.fr/wiki/regles/">Règlement
+</a>
+                        <a class="btn btn-light btn-block mt-2 " href="https://etercube.fr/staff">Staff
+</a>
+                        <a class="btn btn-light btn-block mt-2 " href="https://etercube.fr/wiki/">Wiki
+</a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-theme-simple mt-2 btn-block " href="https://status.etercube.fr" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-box-arrow-up-right"></i>
+                Status
+
+            </a>
+        </div>
+        <div id="bannerHeader" scroll-to-end style="position:relative; padding-top:100px;  background: linear-gradient(90deg, rgba(36, 36, 36, 0.685) 0%, rgba(0, 0, 0, 0.322) 100%),url('https://etercube.fr/storage/img/banner.png') center / cover no-repeat">
+            <img src="https://etercube.fr/storage/img/logo-banner.png" style="width:100px;" alt>
+            <h1 class="header-text">Règlement général </h1>
+            <div class="header-divider">
+                <svg xmlns="http://www.w3.org/2000/svg" style="transform:rotate(180deg) translateY(-3px);" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path fill="#262626" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
+                    <path fill="#262626" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path>
+                    <path fill="#262626" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
+                </svg>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <div id="status-message"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <h1>Règlement</h1>
+                </div>
+                <div class="col-md-3">
+                    <form class="mb-3" action="https://etercube.fr/wiki/search" method="GET" role="search">
+                        <label class="visually-hidden" for="searchInput">Rechercher
+</label>
+                        <div class="input-group">
+                            <input type="search" class="form-control" id="searchInput" name="q" value placeholder="Rechercher" required>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row" id="wiki">
+                <div class="col-md-3">
+                    <div class="list-group mb-3" role="tablist">
+                        <a href="https://etercube.fr/wiki/regles/general" class="list-group-item  active " title="Règlement général" onclick="if (!window.__cfRLUnblockHandlers) return false; selectWikiPage(this)" data-bs-toggle="tab" data-bs-target="#page-4" role="tab" aria-controls="page-4" aria-selected="true" data-cf-modified-3ee7c29eb09196dae703795b->Règlement général
+</a>
+                        <a href="https://etercube.fr/wiki/regles/faction" class="list-group-item " title="Règlement faction" onclick="if (!window.__cfRLUnblockHandlers) return false; selectWikiPage(this)" data-bs-toggle="tab" data-bs-target="#page-5" role="tab" aria-controls="page-5" aria-selected="false" data-cf-modified-3ee7c29eb09196dae703795b->Règlement faction
+</a>
+                        <a href="https://etercube.fr/wiki/regles/sanction" class="list-group-item " title="Grille des sanctions" onclick="if (!window.__cfRLUnblockHandlers) return false; selectWikiPage(this)" data-bs-toggle="tab" data-bs-target="#page-6" role="tab" aria-controls="page-6" aria-selected="false" data-cf-modified-3ee7c29eb09196dae703795b->Grille des sanctions
+</a>
+                    </div>
+                    <a href="https://etercube.fr/wiki" class="btn btn-secondary mb-3">
+                        <i class="bi bi-arrow-left"></i>
+                        Retour
+
+                    </a>
+                </div>
+                <div class="col-md-9 tab-content">
+                    <div class="tab-pane fade  show active " id="page-4" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="card">
+                            <div class="card-body">
+                                <p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 43pt; font-family: arial, helvetica, sans-serif; font-weight: bold; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">Règlement Général d’EterCube</span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 16pt; font-family: arial, helvetica, sans-serif; font-weight: bold; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="border: none; display: inline-block; overflow: hidden; width: 339px; height: 339px;">
+                                            <img style="margin-left: 0px; margin-top: 0px;" src="https://lh5.googleusercontent.com/-YrSrggHM_qbSUr96lx8qhIYcgySttlN-ohx1Ov4McFjGJvgTnnZDpwAE1qL5XwiakrT4sS74fyBMZhkSk8rotPOsGcnFF_pEl3hcYhStSQ1nXmHTlGaSahkJ1F2_n_ssWq0qq8m4ULJM1r-Zi7rAnk" width="339" height="339">
+                                        </span>
+                                    </span>
+                                </p>
+                                <hr>
+                                <p style="text-align: center;" align="center">
+                                    <span style="font-size: 14pt; font-family: Arial, sans-serif;">Bienvenue sur le serveur Minecraft PvP faction EterCube ! Nous sommes heureux de vous accueillir sur notre serveur 100% Farm To Win, où vos compétences et votre stratégie seront les clés de votre succès. Afin que chacun puisse profiter pleinement de l'expérience de jeu, nous avons établi les règles suivantes :</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 15pt; font-family: arial, helvetica, sans-serif; font-weight: bold; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <strong>
+                                            <span style="font-size: 15pt; font-family: Arial, sans-serif;">I - Général</span>
+                                        </strong>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">I.1 - Votre compte, toute information le représentant et vos actions sur EterCube sont sous votre entière responsabilité. Veuillez aussi noter que tout partage de compte est déconseillé.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">I.2 - Toute répétition abusive d'envoi de signalement, de messages ou autres est prohibée. (aussi appelé Spam)</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">I.3 - Toute usurpation d'identité est punissable par l'article 226-4-1 du Code pénal.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">I.4 - Tout essai de contournement de sanction, de façon directe ou indirecte est punissable d'un allongement de votre sanction.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">I.5 - Tout achat par notre boutique est soumis à la législation française, à nos CGU et aux Conditions générales de Vente.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">I.6 - Toute tentative, réussie ou non, visant à nuire à EterCube est prohibée et peut être sanctionnée comme nous le souhaitons.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">I.7 - Le respect de la législation française et celle de votre pays est par ailleurs attendu, toute infraction à celle-ci étant punissable.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">I.8 - Toute mauvaise blague, aussi appelée "troll" ou "prank", est interdite et peut être sanctionnée par la modération si elle est jugée grave.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">I.9 - Les demandes de dons ne sont pas tollérées.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">I.10 - Il est interdit pour un joueur ou pour un membre du staff qui n'est pas dans la modération, de se comporter comme tel. Autrement dit, un joueur n'a aucun ordre/sanction à recevoir de quelqu'un qui n'est pas : Un Modérateur Chat/Un Modérateur/Un Admin</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"></p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"></p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 15pt; font-family: arial, helvetica, sans-serif; font-weight: bold; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <strong>
+                                            <span style="font-size: 15pt; font-family: Arial, sans-serif;">II - Le jeu</span>
+                                        </strong>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">II.1 - Vos données et actions (skin, pseudo, messages, constructions) se doivent d'être respectables et de ne pas choquer. Le staff se réserve le droit de les changer délibérément, après avertissement oral ou écrit, en cas de non-respect de cet article. Si ce(s) changement(s) s'avère(nt) impossible, le compte sera banni jusqu'à preuve de changement. Dans le cas échéant, vous devrez ouvrir un ticket auprès de l'équipe de modération pour que votre sanction soit levée.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">II.2 - Tout usage de double compte est, par défaut, prohibé. Toutefois, il est possible de demander une dérogation dans un ticket.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">II.3.1 - Toute modification, volontaire ou involontaire, de votre méthode de jeu de façon à s'avantager ou à avantager autrui est prohibée. (cheats, failles, bugs)</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">II.3.2 - Si vous découvrez intentionnellement ou non un bug ou une faille dans la serveur minecraft, vous avez l’obligation de le/la signaler au staff par le biais d’un ticket. Si vous exploitez ce bug, la modération se réserve le droit de vous sanctionner à hauteur de la gravité de vos actions.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"></p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"></p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 15pt; font-family: arial, helvetica, sans-serif; font-weight: bold; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <strong>
+                                            <span style="font-size: 15pt; font-family: Arial, sans-serif;">III - Votre relation</span>
+                                        </strong>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">III.1 - Toute promotion d'une religion, d'une opinion politique ou d'informations pouvant nuire à quiconque est punissable d'une sanction pouvant aller à une interdiction d'accès à nos services de façon permanente.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">III.3 - Toute forme de chantage est interdite, conformément à l'article 312-10 du Code Pénal.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">III.4 - Toute publication d'information personnelle ou pouvant nuire à autrui est prohibée.</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif; font-size: 13pt; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">III.5 </span>
+                                        - Une publicité d'un service externe à EterCube ou de ses partenaires sur le serveur ou par message privé peut mener à un bannissement définitif de nos services.
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">III.6 - Nous vous demandons de rester courtois envers toute entité. Cela permet d'éviter toute sorte de rabaissement, d'insulte, de harcèlement, de menaces, etc</span>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"></p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"></p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 15pt; font-family: arial, helvetica, sans-serif; font-weight: bold; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <strong>
+                                            <span style="font-size: 15pt; font-family: Arial, sans-serif;">IV. Sanctions</span>
+                                        </strong>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">IV.1 - </span>
+                                        Les sanctions peuvent être appliquées par le staff en cas d'infraction aux règles
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">IV.2 </span>
+                                        - Les sanctions peuvent être de tout types, tels que des avertissements, des mutes, des kicks, des bans temporaires ou permanents, en fonction de la gravité de l'infraction.
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: Arial, sans-serif;">IV.3 - Les décisions du staff sont finales et ne peuvent être contestées, sauf en cas de preuve irréfutable à l’appui (pour lesquelles une réévaluation de la sanction pourra être entreprise), ou par un membre de l’administration.</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13.5pt; font-family: Arial, sans-serif;"></span>
+                                </p>
+                                <p>
+                                    <span style="font-size: 14pt; font-family: Arial, sans-serif;">En vous connectant au serveur Minecraft EterCube, en rejoignant notre serveur Discord ou en publiant un contenu, public ou privé concernant de près ou de loin EterCube, vous reconnaissez avoir lu, compris et accepté l'intégralité du présent règlement et de ses sous-parties (faction, etc.). Nous nous réservons le droit de modifier le présent règlement à tout moment. Il est de votre responsabilité de vous tenir informé des éventuelles modifications. Nous espérons que ces règles vous permettront de profiter au maximum de votre expérience de jeu sur EterCube.</span>
+                                </p>
+                                <h2>
+                                    <span id="docs-internal-guid-e2f7ede9-7fff-953d-f395-0da63868dc31" style="font-weight: normal;"></span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="page-5" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="card">
+                            <div class="card-body">
+                                <p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 43pt; font-family: Arial; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Règlement du Faction d’EterCube</span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 16pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="border: none; display: inline-block; overflow: hidden; width: 339px; height: 339px;">
+                                            <img style="margin-left: 0px; margin-top: 0px;" src="https://lh6.googleusercontent.com/snlUqcrAFR4aYHAked5pGtJ6K2S7xk5oXNhN82jCXqxxIPxdRPRuyOHKSgJE6AcKywgYFe5esrFXkYhwapesduD9aXpLufOzdfl3OOHFmdKdV372Ib7bqazAwl2cxlbRnKGzMwEtAYyD" width="339" height="339">
+                                        </span>
+                                    </span>
+                                </p>
+                                <hr>
+                                <p dir="ltr">
+                                    <span style="font-size: 18pt;">
+                                        <strong>
+                                            <span style="font-family: arial, helvetica, sans-serif;">I - Factions</span>
+                                        </strong>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">I.1 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">Le nom et la description d'une faction ne doivent pas être inappropriés et ne doivent pas usurper l'identité d'une autre faction</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">
+                                        <span style="font-family: Arial, sans-serif; font-size: 13pt; white-space: pre-wrap;">I.2 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">Les claims d'une faction ne doivent pas rentrer en conflit avec ceux des factions dites "Admin", notamment la faction SafeZone, Warzone et AvantPoste</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">I.3 - </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">La trahison, définie ci-après, est interdite. </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">Par "trahison" est entendu : piller/détruire, tuer des joueurs ou divulger les coordonées d'une base, par le biai de soi ou d'un allié en se servant du fait d'être dans une faction ou dans une faction allié à une faction. </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">I.4 - Il est interdit, de casser ou de piller les claims des factions dites Admins, notamment les claims des avants-postes qui ne sont pas attribués, de la warzone, du spawn ou des events. Il est d'autant plus grave d'utiliser voir de distribuer l'éventuel stuff pillé.</span>
+                                </p>
+                                <p dir="ltr" role="presentation"></p>
+                                <p dir="ltr" role="presentation"></p>
+                                <p dir="ltr">
+                                    <span style="font-size: 18pt;">
+                                        <strong>
+                                            <span style="font-family: arial, helvetica, sans-serif;">II. Économie</span>
+                                        </strong>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">II.1 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">Les arnaques sont interdites. Si un joueur ne respecte pas ses engagements en matière d'échange, signalez-le au staff.</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">
+                                        <span style="font-family: Arial, sans-serif; font-size: 13pt; white-space: pre-wrap;">II.2 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif; font-size: 16px; white-space: pre-wrap;">Toute transaction commerciale avec une monnaie autre que celles fournies par Etercube, visant à vendre des biens ou des services propres à EterCube (Items, Erias…) effectuée avec de l’argent réel est interdite.</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">
+                                        <span style="font-family: Arial, sans-serif; font-size: 13pt; white-space: pre-wrap;">II.3 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">La duplication d'objets est strictement interdite. Toute infraction sera punie.</span>
+                                </p>
+                                <p dir="ltr" role="presentation"></p>
+                                <p dir="ltr" role="presentation"></p>
+                                <p dir="ltr">
+                                    <span style="font-size: 18pt;">
+                                        <strong>
+                                            <span style="font-family: arial, helvetica, sans-serif;">III. PvP</span>
+                                        </strong>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <em>
+                                        <span style="text-decoration: underline;">
+                                            <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                                <span style="font-size: 13pt; font-family: Arial, sans-serif;">Note :</span>
+                                            </span>
+                                        </span>
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                            <span style="font-size: 13pt; font-family: Arial, sans-serif;"></span>
+                                            <span style="font-size: 13pt; font-family: Arial, sans-serif;">Sans contre-indication, ces règles s'appliquent en tout point du serveur faction (y compris la warzone/safezone).</span>
+                                        </span>
+                                    </em>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">III.1 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">Toute fuite du combat autrement qu’à pied de plus de 32 blocks de l'adversaire le plus proche, sur une monture ou en utilisant un item de déplacement, dans les 30 secondes suivant le dernier coup porté, est interdite. Cela inclut la déconnexion du serveur faction, le back SafeZone, l’utilisation de commande de téléportation, et autres.</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">
+                                        <span style="font-family: Arial, sans-serif; font-size: 13pt; white-space: pre-wrap;">III.2 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">Le TP-Kill est interdit. Nous définissons TP-Kill comme l'action ou la tentative de tuer / porter au moins deux coups / faire perdre minimum 4 cœurs / amener dans un piège ou dans une embuscade un joueur dans les 5 minutes (temps de déconnexion compris) après qu’une téléportation ait eu lieu entre vous et lui. Les participants au combat, au piège ou à l’embuscade seront également sanctionnés. Toutefois, il est possible d'anuller cet article sous les conditions suivantes :</span>
+                                </p>
+                                <ul>
+                                    <li style="line-height: 1.38;">
+                                        <span style="font-family: arial, helvetica, sans-serif;">Le joueur qui fait la demande de téléportation dit explicitement les conditions du combat (nombre d'attaquant, potions d'invisibilité, pièges...) qui pourraient ne pas être visible par le joueur qui se fait téléporter</span>
+                                    </li>
+                                    <li style="line-height: 1.38;">
+                                        <span style="font-family: arial, helvetica, sans-serif;">
+                                            Le joueur qui se fait téléporter doit alors marquer explicitement <span style="text-decoration: underline;">dans le chat</span>
+                                            (pas en vocal) qu'il est d'accord avec ces conditions, et qu'il renonce à faire un report
+                                        </span>
+                                    </li>
+                                </ul>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">
+                                        <span style="font-family: Arial, sans-serif; font-size: 13pt; white-space: pre-wrap;">III.3 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">Il est interdit d’utiliser le fait de faire tomber des joueurs dans le vide pour le PVP (en cassant la dernière couche de bedrock, confère IV.1).</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">
+                                        <span style="font-family: Arial, sans-serif; font-size: 13pt; white-space: pre-wrap;">III.4 - Il est interdit de modifier, de façon permanente ou non, les zones dites protégés (notamment la safezone, la warzone et les ap non-claim). Par extension, i</span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">l est également interdit d’amener/d’utiliser tout mobs/animaux dans ces zones protégés.</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">
+                                        <span style="font-family: Arial, sans-serif; font-size: 13pt; white-space: pre-wrap;">III.5 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">Il est interdit de déplacer de force un joueur de la Safezone vers la Warzone (exemple : canne à pêche)</span>
+                                </p>
+                                <p dir="ltr"></p>
+                                <p dir="ltr"></p>
+                                <p dir="ltr">
+                                    <strong style="font-size: 24px;">
+                                        <span style="font-family: arial, helvetica, sans-serif;">IV. Autres</span>
+                                    </strong>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">IV.1 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">Toute cassure de la dernière couche de bedrock avant le vide est interdite.</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">
+                                        <span style="font-family: Arial, sans-serif; font-size: 13pt; white-space: pre-wrap;">IV.2 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">Il est interdit de conserver des chiens/loups “assis” dans le spawn et dans la warzone.</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">
+                                        <span style="font-family: Arial, sans-serif; font-size: 13pt; white-space: pre-wrap;">IV.3 - T</span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif;">oute demande de remboursement en jeu doit être rédigée et argumentée autour de preuves. Dans le cas contraire, votre demande sera automatiquement rejetée.</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">IV.4 - Si un joueur se téléporte à un autre joueur via le /tpa et qu'il s'engage par quelconque moyen à ne pas le piller, la divulgation des coordonées, le pillage, la participation au pillage ou la téléportation d'un autre joueur devient interdite et cela pour 1 mois.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="page-6" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="card">
+                            <div class="card-body">
+                                <p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 43pt; font-family: arial, helvetica, sans-serif; font-weight: bold; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">Grille des sanctions d’EterCube</span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 16pt; font-family: arial, helvetica, sans-serif; font-weight: bold; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="border: none; display: inline-block; overflow: hidden; width: 339px; height: 339px;">
+                                            <img style="margin-left: 0px; margin-top: 0px;" src="https://lh6.googleusercontent.com/snlUqcrAFR4aYHAked5pGtJ6K2S7xk5oXNhN82jCXqxxIPxdRPRuyOHKSgJE6AcKywgYFe5esrFXkYhwapesduD9aXpLufOzdfl3OOHFmdKdV372Ib7bqazAwl2cxlbRnKGzMwEtAYyD" width="339" height="339">
+                                        </span>
+                                    </span>
+                                </p>
+                                <hr>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif; font-size: 14pt;">
+                                        <strong>
+                                            <span style="background-color: transparent; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">
+                                                <a title="Règlement Général" href="/wiki/regles/general" target="_blank" rel="noopener">Règlement Général :</a>
+                                            </span>
+                                        </strong>
+                                    </span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">
+                                        <strong style="font-family: sans-serif; font-size: 18.6667px; white-space: normal;">I - Général</strong>
+                                    </span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">I.2 - Mute 4 jours</span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">I.3 - Ban 1 mois</span>
+                                </p>
+                                <ul>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-family: arial, helvetica, sans-serif; font-size: 13pt; white-space: pre-wrap;">Continue de nier : Ban 2 mois</span>
+                                    </li>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Malintentionné : Ban 4 mois</span>
+                                    </li>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Aveux : Ban 20 jours</span>
+                                    </li>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Troll/Test : Ban 20 jours</span>
+                                    </li>
+                                </ul>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">I.4 - Sanction multiplié par 3/2 et patch de la faille</span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">I.5 - Ban 2 mois</span>
+                                </p>
+                                <ul>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Transaction Réussie: Ban permanent</span>
+                                    </li>
+                                </ul>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">I.6 - Avertissement</span>
+                                </p>
+                                <ul>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Première Récidive : Mute 12 heures</span>
+                                    </li>
+                                    <li dir="ltr" style="line-height: 1.38;">Seconde Récidive : Mute 2 jours</li>
+                                </ul>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">I.8 - Ban 3 jours</span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">I.9 - Avertissement puis Mute 1 heure</span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">I.10 - La sanction peut varier selon la gravité de l'acte</span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"></p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <strong style="font-size: 18.6667px;">II - Le jeu</strong>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">II.2 - Ban permanent du double compte et ajout de 15 jours de ban sur le compte principal</span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">II.3 - Ban 1 mois et Clear de l'inventaire et de l'ender chest</span>
+                                </p>
+                                <ul>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Impact grave sur autrui (économie ou PVP) : Ban 2 mois</span>
+                                    </li>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Aveux Rapide (selon les cas) : Ban 3 semaines</span>
+                                    </li>
+                                </ul>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">
+                                        <strong style="font-family: sans-serif; font-size: 18.6667px; white-space: normal;">III - Votre relation</strong>
+                                    </span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">III.3 - Décision prise selon l'ampleur</span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">III.4 - Ban 1 mois</span>
+                                </p>
+                                <ul>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Pas de conséquence : Mute 1 semaine</span>
+                                    </li>
+                                </ul>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">III.5 - Mute 1 semaine à Ban 5 jours selon l'ampleur </span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"></p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <a title="Règlement Faction :" href="/wiki/regles/faction" target="_blank" rel="noopener">
+                                        <strong>
+                                            <span style="font-size: 14pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Règlement Faction :</span>
+                                        </strong>
+                                    </a>
+                                </p>
+                                <p dir="ltr">
+                                    <span style="font-size: 14pt;">
+                                        <strong>I - Factions</strong>
+                                    </span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">I.1 - Demande de modification.</span>
+                                </p>
+                                <ul>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Refus : Disband de la faction</span>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">I.2 - Unclaim des chunks et avertissement puis disband de la faction.</span>
+                                </p>
+                                <p>
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">I.3 -</span>
+                                </p>
+                                <ul>
+                                    <li>
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Aveux et remboursement : Avertissement</span>
+                                    </li>
+                                    <li>
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Sinon : Ban 1 semaine et remboursement des victimes</span>
+                                    </li>
+                                </ul>
+                                <p>
+                                    l.4 - Rollback de la zone/Reprise du stuff de force, <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">banissement 1 mois (voir plus selon la gravité)</span>
+                                </p>
+                                <p>
+                                    <strong style="font-size: 18.6667px;">II - Economie</strong>
+                                </p>
+                                <p>
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">II.1 - Remboursement de la victime et banissement 1 jour</span>
+                                </p>
+                                <p>
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">II.2 - Banissement 1 mois à Banissement permanent en fonction de l'ampleur</span>
+                                </p>
+                                <p>
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">II.3 - Clear et destruction de tout les équipements de stockage du joueurs (coffres, fours, ender chest, etc.).</span>
+                                </p>
+                                <ul>
+                                    <li>
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Si le joueur coopére et explique le bug utilisé : Ban 15 jours</span>
+                                    </li>
+                                    <li>
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Dans le cas contraire : Bannissement permanent</span>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">
+                                        <strong style="font-family: sans-serif; font-size: 18.6667px; white-space: normal;">III - PvP</strong>
+                                    </span>
+                                </p>
+                                <p>
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">III.1 -</span>
+                                </p>
+                                <ul>
+                                    <li>
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Si le joueur arrive à prouver que cette action n'est pas dû à lui mais à sa connection : Aucune sanction</span>
+                                    </li>
+                                    <li>
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Si le joueur accepte de donner le stuff qu'il portait au moment du fight aux victimes : Avertissement</span>
+                                    </li>
+                                    <li>
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Si le joueur ne respecte aucune des deux conditions : Ban 7 jours et transfert du stuff aux victimes si le joueur avait moins de 2 coeurs (</span>
+                                        <img style="font-family: arial, helvetica, sans-serif; font-size: 17.3333px; white-space: pre-wrap;" src="/storage/wiki/pages/attachments/71OwEgHBgZ423cRjf7t9Ke0pPD0SVlScJqLm7dIz.png" alt width="16" height="16">
+                                        <img style="font-family: arial, helvetica, sans-serif; font-size: 17.3333px; white-space: pre-wrap;" src="/storage/wiki/pages/attachments/71OwEgHBgZ423cRjf7t9Ke0pPD0SVlScJqLm7dIz.png" alt width="16" height="16">)
+                                    </li>
+                                </ul>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">III.2 -</p>
+                                <ul>
+                                    <li dir="ltr" style="line-height: 1.38;">Si l'auteur du TP-KILL accepte de rembourser le stuff de lui-même avec 10 000 Erias (10 000 Erias pour chaque éventuel membre d'une embuscade) : Avertissement</li>
+                                    <li dir="ltr" style="line-height: 1.38;">Si l'auteur du TP-KILL refuse : Ban 7 jours et remboursement de la victime</li>
+                                </ul>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif; font-size: 17.3333px; white-space: pre-wrap;">III.3 - </span>
+                                    <span style="font-family: arial, helvetica, sans-serif; font-size: 17.3333px; white-space: pre-wrap;">Ban 7 jours, </span>
+                                    <span style="font-family: arial, helvetica, sans-serif; font-size: 17.3333px; white-space: pre-wrap;">replacement de la bedrock, </span>
+                                    <span style="font-family: arial, helvetica, sans-serif; font-size: 17.3333px; white-space: pre-wrap;">remboursement des victimes</span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">III.4 - Avertissement et kill du mob. Puis, kill de l'animal et :</span>
+                                </p>
+                                <ul>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Si le nouvel animal est passif : Ban 3 heures</span>
+                                    </li>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Si le nouvel animal est neutre : Ban 6 heures</span>
+                                    </li>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Si le nouvel animal est aggressif : Ban 1 jour</span>
+                                    </li>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-family: arial, helvetica, sans-serif;">
+                                            <span style="font-size: 17.3333px; white-space: pre-wrap;">Si le nouvel animal fait partie de la liste Wither, Guardian, Elder Guardian, Ender Dragon : Ban 3 jours</span>
+                                        </span>
+                                    </li>
+                                    <li dir="ltr" style="line-height: 1.38;">
+                                        <span style="font-family: arial, helvetica, sans-serif;">
+                                            <span style="font-size: 17.3333px; white-space: pre-wrap;">S'il y a des joueurs qui meurent à cause de cet/ces animal.aux : Remboursement des victimes et multiplication de la sanction par 2.</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <span style="font-family: arial, helvetica, sans-serif; font-size: 17.3333px; white-space: pre-wrap;">III.5 -</span>
+                                </p>
+                                <ul>
+                                    <li>
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Si la victime prend moins de 4 coeurs de dégâts et n'est pas tuée :</span>
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Ban 1 jour</span>
+                                    </li>
+                                    <li>
+                                        <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Si la victime est tuée : Ban 7 jours et remboursement de la victime.</span>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">
+                                        <strong style="font-size: 18.6667px;">IV - Autres</strong>
+                                    </span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space: pre-wrap;">
+                                        <span style="font-size: 13pt; font-family: Arial, sans-serif;">IV.1 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif; font-size: 17.3333px; white-space: pre-wrap;">Avertissement puis ban 3 jours, replacement de la bedrock</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif;">
+                                        <span style="font-family: Arial, sans-serif; font-size: 13pt; white-space: pre-wrap;">IV.2 - </span>
+                                    </span>
+                                    <span style="font-family: arial, helvetica, sans-serif; font-size: 17.3333px; white-space: pre-wrap;">Avertissement, puis kill du chien/loup et second avertissement, puis ban 1 jour</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-family: arial, helvetica, sans-serif; font-size: 17.3333px; white-space: pre-wrap;">IV.4 - Remboursement intégral du stuff pillé et 20000 Erias par nombre de joueurs mis au courant/ayant participé au pillage</span>
+                                </p>
+                                <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"></p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="text-decoration: underline; font-size: 14pt;">
+                                        <strong>Informations concernant les récidives :</strong>
+                                    </span>
+                                </p>
+                                <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+                                    <span style="font-size: 13pt; font-family: arial, helvetica, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Dans le cas de la première récidive, la sanction se verra multipliée par 3/2. Dans le cas d'une seconde récidive, la sanction se verra multipliée par 3. Dans le cas d'une troisième récidive, la sanction se verra multipliée par 5. Dans le cas d'une quatrième et dernière récidive, la sanction appliquée sera permanente.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footerStats" style="position:relative;  background: linear-gradient(90deg, rgba(36, 36, 36, 0.685) 0%, rgba(0, 0, 0, 0.322) 100%),url('https://etercube.fr/storage/img/banner.png') center / cover no-repeat">
+            <div class="content-top-divider">
+                <svg xmlns="http://www.w3.org/2000/svg" style="transform:rotate(180deg) translateY(-3px);" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path fill="#262626" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
+                    <path fill="#262626" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path>
+                    <path fill="#262626" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
+                </svg>
+            </div>
+            <div class="content">
+                <div class="content-item">
+                    <h1 class="item-title">0
+</h1>
+                    <p class="item-text">JOUEURS CONNECTÉS</p>
+                </div>
+                <div class="content-item">
+                    <h1 class="item-title">+3900</h1>
+                    <p class="item-text">JOUEURS INSCRITS</p>
+                </div>
+                <div class="content-item">
+                    <h1 class="item-title">29 - 7/10</h1>
+                    <p class="item-text">RECORD DE JOUEURS</p>
+                </div>
+            </div>
+            <div class="content-bottom-divider">
+                <svg xmlns="http://www.w3.org/2000/svg" style="transform:rotate(180deg) translateY(-3px);" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path fill="#262626" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
+                    <path fill="#262626" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path>
+                    <path fill="#262626" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
+                </svg>
+            </div>
+        </div>
+        <footer>
+            <div id="bigFooter">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 class="footer-title">Etercube</h1>
+                            <p class="footer-text">Etercube est un serveur Minecraft PvP-Faction, actuellement en Beta publique. Fondé en 2021, il a pour mission d &#039;offrir le meilleur gameplay possible à toutes les plateforme, que ce soit Premium, Crack ou Bedrock.
+</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="section-title">Liens Utiles</h5>
+                            <div class="socials mt-3">
+                                <div>
+                                    <a class="socials-item" target="_blank" href="https://etercube.fr/host">
+                                        <i class="bi-link-45deg"></i>
+                                        Hébergeur
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="socials-item" target="_blank" href="https://etercube.fr/wiki">
+                                        <i class="bi-link-45deg"></i>
+                                        Wiki
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="socials-item" target="_blank" href="https://status.etercube.Fr">
+                                        <i class="bi-link-45deg"></i>
+                                        Status
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="section-title">Réseaux Sociaux</h5>
+                            <div class="socials mt-3">
+                                <div>
+                                    <a class="socials-item" target="_blank" href="https://discord.gg/hbV5zhcKTf">
+                                        <i class="bi-link-45deg"></i>
+                                        Discord
+
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="socials-item" target="_blank" href="https://www.youtube.com/@etercube">
+                                        <i class="bi-link-45deg"></i>
+                                        YouTube
+
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="socials-item" target="_blank" href="https://twitter.com/etercube">
+                                        <i class="bi-link-45deg"></i>
+                                        Twitter
+
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="socials-item" target="_blank" href="https://tiktok.com/@etercube">
+                                        <i class="bi-link-45deg"></i>
+                                        TikTok
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div id="footer" class="d-md-flex justify-content-between container">
+            <div>2021-2024 EterCube - Tout droit réservés - Non affilié à Mojang AB / Pas un produit officiel.
+</div>
+            <div>
+                Propulsé par <a href="https://azuriom.com" target="_blank" rel="noopener noreferrer">Azuriom</a>
+                . 
+            </div>
+        </div>
+        <script type="3ee7c29eb09196dae703795b-text/javascript">
+            
+            function copyIp(el) {
+                var value = '   mc.etercube.fr   '
+                var tempInput = document.createElement("input");
+                tempInput.style = "position: absolute; left: -1000px; top: -1000px";
+                tempInput.value = value.replace(/\s/g, '');
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                document.execCommand("copy");
+                document.body.removeChild(tempInput);
+                $(el).children('.after').html('Ip copiée !')
+                setTimeout(function(){
+                    $(el).children('.after').html('<i class="bi-link-45deg"></i> Cliquez pour copier <i class="bi-link-45deg"></i>')
+                },2000)
+            }
+        
+        </script>
+        <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="3ee7c29eb09196dae703795b-|49" defer></script>
+    </body>
+</html>
